@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Poster Generator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="input-form">
+      <input type="text" id="title" placeholder="Video Title" />
+      <input type="text" id="channel" placeholder="Channel Name" />
+      <input type="number" id="views" placeholder="Views (e.g. 10500)" />
+      <input type="text" id="months" placeholder="Months Ago" />
+      <input type="text" id="timestamp" placeholder="Timestamp (e.g. 13:16)" />
+      <input type="text" id="thumbnail" placeholder="Thumbnail URL" />
+      <button onclick="addPoster()">Add / Update Poster</button>
+    </div>
+
+    <div id="poster-container" class="poster-grid"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
