@@ -1,5 +1,3 @@
-# youtube-playlist-poster
-
 # 🎬 Dynamic Video Poster Generator
 
 A stylish and dynamic web app that allows users to generate YouTube-style video poster cards using form inputs. Built with **HTML, CSS, and JavaScript**, this project is perfect for learning DOM manipulation and UI interaction — no backend required!
